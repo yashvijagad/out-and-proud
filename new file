@@ -1,0 +1,535 @@
+*
+* Click
+nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to
+change this license
+* Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to
+edit this template
+*/
+/**
+*
+* @author PANKAJ JAIN
+*/
+import java.util.*;
+public class NewClass {
+int a;
+Scanner sc=new Scanner(System.in);
+void history()
+{
+System.out.println("""
+Here is the list of certain places:
+1.China
+2.Japan
+3.India
+4.Ancient Greece
+5.Ancient Rome
+""");
+a=sc.nextInt();
+switch(a)
+{
+case 1:
+{
+System.out.println("you chose"+a);
+System.out.println("""
+Male homosexuality has been acknowledged in
+China since ancient times and was mentioned in many famous works of
+Chinese literature.
+Confucianism, being primarily a social and
+political philosophy, focused little on sexuality, whether homosexual or
+heterosexual.
+In contrast, the role of women is given
+little positive emphasis in Chinese history, with records of lesbianism
+being especially rare.
+Still, there are also descriptions of
+lesbians in some history books.
+It is believed homosexuality was popular in
+the Song, Ming and Qing dynasties.
+Chinese literature recorded multiple
+anecdotes of men engaging in homosexual relationships.
+In the story of the leftover peach(ä½™æ¡ƒ),
+set during the Spring and Autumn Era, the historian Han Fei recorded an
+anecdote in the relationship of Mi Zixia (å½Œå ç‘•) and Duke Ling of Wei
+(è¡›é ˆå…¬) in which Mizi Xia shared an especially delicious peach with
+his lover.
+The story of the cut sleeve(æ–è¢–) recorded
+the Emperor Ai of Han sharing a bed with his lover, Dongxian (è‘£è³¢);
+when Emperor Ai woke up later, he carefully cut off his sleeve, so as not
+to awake Dongxian, who had fallen asleep on top of it.
+Scholar Pan Guangdan (æ½˜å…‰æ—¦) came to
+the conclusion that many emperors in the Han dynasty had one or more male
+sex partners.
+However, except in unusual cases, such as
+Emperor Ai, the men named for their homosexual relationships in the
+official histories appear to have had active heterosexual lives as well.
+With the rise of the Tang dynasty, China
+became increasingly influenced by the sexual morals of foreigners from
+Western and Central Asia, and female companions began to replace male
+companions in terms of power and familial standings
+The following Song dynasty was the last
+dynasty to include a chapter on male companions of the emperors in
+official documents.
+During these dynasties, the general
+attitude toward homosexuality was still tolerant, but male lovers started
+to get seen as less legitimate compared to wives and men were usually
+expected to get married and continue the family line.
+During the Ming Dynasty, it is said that
+the Zhengde Emperor had a homosexual relationship with a Muslim leader
+named Sayyid Husain.
+In later Ming Dynasty, homosexuality began
+to be referred to as the "southern custom" due to the fact that Fujian was
+the site of a unique system of male marriages, attested to by the
+scholar-bureaucrat Shen Defu and the writer Li Yu, and mythologized by in
+the folk tale, The Leveret Spirit.
+The Qing dynasty instituted the first law
+against consensual, non-monetized homosexuality in China.
+However, the punishment designated, which
+included a month in prison and 100 heavy blows, was actually the lightest
+punishment which existed in the Qing legal system.
+In Dream of the Red Chamber, written during
+the Qing Dynasty, instances of same-sex affection and sexual interactions
+described seem as familiar to observers in the present as do equivalent
+stories of romances between heterosexual people during the same period.
+Significant efforts to suppress
+homosexuality in China began with the Self-Strengthening Movement, when
+homophobia was imported to China along with Western science and
+philosophy.
+""");
+break;
+}
+case 2:
+{
+System.out.println("you chose"+a);
+System.out.println("""
+Pre-Meiji Japan
+Records of men who have sex with
+men in Japan date back to ancient times.
+However, they became most apparent
+to scholars during the Edo period.
+Historical practises of
+homosexuality is usually referred to in Japan as wakashudÅ (è‹¥è¡†é “,
+lit.â€‰'way of the wakashu') and “nanshoku (ç”·è‰², lit.â€‰'male colors').
+The institution of wakashudÅ in
+Japan is in many ways similar to pederasty in ancient Greece.
+Older men usually engaged in
+romantic relationships with younger men (the wakashu), usually in their
+teens.
+In the classic Japanese literature
+The Tale of Genji, written in the Heian Era, men are frequently moved by
+the beauty of young boys.
+In one scene the hero is rejected
+by a lady and instead sleeps with her young brother: "Genji pulled the boy
+down beside him ... Genji, for his part, or so one is informed, found the
+boy more attractive than his chilly sister".
+Some references also contain
+references to emperors involved in homosexual relationships and to
+"handsome boys retained for sexual purposes" by emperors.
+In other literary works can be
+found references to what Leupp has called "problems of gender
+identity",such as the story of a youth's falling in love with a girl who
+is actually a cross-dressing male.
+Post Meiji Japan
+As Japan started it process of
+westernizing during the Meiji era, homophobia was imported from western
+sources into Japan and animosity towards same-sex practices started
+growing.
+In 1873 Ministry of Justice passed
+the keikan (é¶ å§¦) code, a sodomy law criminalizing homosexual practices.
+""");
+break;
+}
+case 3:
+{
+System.out.println("Here is some information about
+"+a);
+System.out.println("""
+Throughout Hindu and Vedic texts
+there are many descriptions of saints, demigods, and even the Supreme Lord
+transcending gender norms and manifesting multiple combinations of sex and
+gender.
+There are several instances in
+ancient Indian epic poetry of same sex depictions and unions by gods and
+goddesses.
+There are several stories of
+depicting love between same sexes especially among kings and queens.
+Kamasutra, the ancient Hinduism
+based Indian treatise on love talks about feelings for same sexes.
+There are several depictions of
+same-sex sexual acts in Hindu temples like Khajuraho.
+Several Mughal noblemen and
+emperors and other Muslim rulers of South Asia are known to have had
+homosexual inclinations.
+In South Asia the Hijra are a caste
+of third-gender, or transgender group who live a feminine role.
+Hijra may be born male or intersex,
+and some may have been born female.
+""");
+break;
+}
+case 4:
+{
+System.out.println("Here is some
+information about "+a);
+System.Outandproud.println("""
+Same-sex relationships did not
+replace marriage between man and woman, but occurred before and beside it.
+A mature man would not usually
+have a mature male mate (with exceptions such as Alexander the Great and
+the same-aged Hephaestion) but the older man would usually be the erastes
+(lover) to a young eromenos (loved one).
+Men could also seek adolescent
+boys as partners as shown by some of the earliest documents concerning
+same-sex pederastic relationships, which come from ancient Greece.
+Often they were favored over
+women.
+Though slave boys could be bought,
+free boys had to be courted, and ancient materials suggest that the father
+also had to consent to the relationship.
+Same-sex relationships were a
+social institution variously constructed over time and from one city to
+another.
+The formal practice, an erotic yet
+often restrained relationship between a free adult male and a free
+adolescent was valued for its pedagogic benefits and as a means of
+population control, though occasionally was blamed for causing disorder.
+Plato praised its benefits in his
+early writings [e.g., Phaedrus in the Symposium (385â€“370 BCE)] but in
+his late works proposed its prohibition [e.g., in Laws.
+In the Symposium (182B-D), Plato
+equates acceptance of homosexuality with democracy and its suppression
+with despotism, and wrote that homosexuality "is shameful to barbarians
+because of their despotic governments, just as philosophy and athletics
+are, since it is apparently not in best interests of such rulers to have
+great ideas engendered in their subjects, or powerful friendships or
+physical unions, all of which love is particularly apt to produce".
+Aristotle, in the Politics,
+dismissed Plato's ideas about abolishing homosexuality; he explains that
+barbarians like the Celts accorded it a special honor, while the Cretans
+used it to regulate the population.
+Female youths are depicted
+surrounding Sappho in this painting of Lafond "Sappho sings for Homer",
+1824.
+The ideal held that both partners
+would be inspired by love symbolized by Eros, the erastes unselfishly
+providing education, guidance, and appropriate gifts to his eromenos, who
+became his devoted pupil and assistant, while the sexuality theoretically
+remained short of penetrative acts and supposedly would consist primarily
+of the act of frottage or intercrural sex.
+Although this was the ideal,
+realistically speaking, it is probable that in many such relationships
+fellatio and penetrative anal intercourse did occur.
+The hoped-for result was the
+mutual improvement of both erastes and eromenos, each doing his best to
+excel in order to be worthy of the other.
+Kenneth J. Dover, followed by
+Michel Foucault and Halperin, assumed that it was considered improper for
+the eromenos to feel desire, as that would not be masculine.
+However, Dover's claim has been
+questioned in light of evidence of love poetry which suggests a more
+emotional connection than earlier researchers liked to acknowledge.
+Sappho, born on the island of
+Lesbos, was included by later Greeks in the canonical list of nine lyric
+poets.
+The adjectives deriving from her
+name and place of birth (Sapphic and Lesbian) came to be applied to female
+homosexuality beginning in the 19th century.
+Sappho's poetry centers on passion
+and love for various personages and both genders.
+The narrators of many of her poems
+speak of infatuations and love for various females, but descriptions of
+physical acts between women are few and subject to debate.
+""");
+break;
+}
+case 5:
+System.out.println("Here is some information about"+a);
+System.out.println("""
+In Ancient Greece and Phrygia, and
+later in the Roman Republic, the Goddess Cybele was worshiped by a cult of
+people who castrated themselves, and thereafter took female dress and
+referred to themselves as female.
+These early transgender figures have
+also been referred by several authors as early role models.
+In Ancient Rome the young male body
+remained a focus of male sexual attention, but relationships were between
+older free men and slaves or freed youths who took the receptive role in
+sex.
+The Hellenophile emperor Hadrian is
+renowned for his relationship with Antinous.
+In Roman patriarchal society, it was
+socially acceptable for an adult male citizen to take the penetrative role
+in same-sex relations.
+Freeborn male minors were strictly
+protected from sexual predators (see Lex Scantinia), and men who willingly
+played the "passive" role in homosexual relations were disparaged.
+No law or moral censure was directed
+against homosexual behaviors as such, as long as the citizen took the
+dominant role with a partner of lower status such as a slave, prostitute,
+or someone considered infamis, of no social standing.
+The Roman emperor Elagabalus is
+depicted as transgender by some modern writers.
+Elagabalus was said to be "delighted to
+be called the mistress, the wife, the queen of Hierocles."
+Supposedly, great wealth was offered to
+any surgeon who was able to give Elagabalus female genitalia.
+During the Renaissance, wealthy cities
+in northern Italyâ€”Florence and Venice in particularâ€”were renowned for
+their widespread practice of same-sex love, engaged in by a considerable
+part of the male population and constructed along the classical pattern of
+Greece and Rome.
+Attitudes toward homosexual behavior
+changed when the Empire fell under Christian rule.
+""");
+}
+}
+}
+void genders()
+{
+System.out.println("Gender identity is often misunderstood."
++ " Its not the same thing as sexual identity."
++ " The simplest way to think about it is that the gender
+you identify as on the inside whether you are male, female, neither or
+even both. "
++ "Gender identification exists on a wide spectrum, and
+you may change how you identify over time. ");
+System.out.println("Types of gender:
+1.Agender
+2.Androgyne
+3.Bigender
+4.Butch
+5.Cisgender
+6.Gender Expansive
+7.Gender Queer
+8.Non-binary
+9.Transgender/trans
+);
+a=sc.nextInt();
+switch(a)
+{
+case 1 -> System.out.println(b"If you identify as agender,
+you might not identify as either female or male. In fact, you might not
+identify with any gender at all.");
+break;
+}
+case 2:
+{
+System.out.println(b"Androgyne signifies you identify as both
+female and male");
+break;
+}
+case 3:
+{
+System.out.println(b"When you identify as bigender, you identify with
+two genders");
+break;
+}
+case 4:
+{
+System.out.println(b"Butch is a term you might use if youâ€™re a
+lesbian woman looking to describe what society deems as your
+œmasculinity.");
+break;
+}
+case 5:
+{
+System.out.println(b"Cisgender is identifying with the sex youâ€™re
+born with. For example, you are cisgender if you were born with male sex
+parts and identify as a male.");
+break;
+}
+case 6:
+{
+System.out.println(b"Gender expansive can be used if you gone beyond your
+individual cultureâ€™s standardized definitions of gender. "
++ "You may want to broaden the cultural expectations that have been placed
+on your gender.");
+break;
+}
+case 7:
+{
+System.out.println(b"When your identity isnt aligned with the societal
+expectations that are placed on your assigned sex, you might identify as
+genderqueer."
++ " You can also use this term if you identify with a combination of
+genders.");
+break;
+}
+case 8:{
+System.out.println(b"Non-binary refers to identifying with a gender other
+than male or female. "
++ "Itâ€™s common (but not always true) for those who identify or come out
+as transgender to also identify as non-binary.);"
+break;
+}
+case 9:{
+System.out.println(b"When you identify as transgender, you were born with
+different sex parts than what you identify with."
++ " The shortened term, â€œtrans,â€ serves as a more inclusive term thats
+commonly used if you are non-binary or gender nonconforming.")
+break;
+}
+}
+}
+Void sexuality()
+{
+System.out.println(“””
+Sexual orientation is the emotional, romantic, or
+sexual attraction that a person feels toward another person”””);
+System.out.println(“””Types of sexuality:
+1.heterosexual
+2.homo
+3.bisexual
+4.asexual
+“””);
+a=sc.nextInt()
+switch(a)
+{
+case 1:
+{
+System.out.println(“here is some information about”+a);
+System.out.println(“People who are heterosexual are romantically and
+physically attracted to members of the opposite sex.
+Heterosexual males are attracted to females, and heterosexual females are
+attracted to males. Heterosexuals are sometimes called "straight."”);
+break;
+}
+case 2:
+{
+System.out.println(“Here is some information about”+a);
+System.out.println(“People who are homosexual are romantically and
+physically attracted to people of the same sex: Females who are attracted
+to other females are lesbian; males who are attracted to other males are
+often known as gay. (The term gay is sometimes used to describe homosexual
+individuals of either sex.)””);
+break;
+}
+case 3:
+{
+System.out.println(“here is some information about”+a);
+System.out.println(“ People who are bisexual are romantically and
+physically attracted to members of both sexes.”);
+break;
+}
+case 4:
+{
+System.out.println(“Here is some information about”+a);
+System.out.println(“People who are asexual may not be interested in sex,
+but they still feel emotionally close to other people.”);
+break;
+}
+}
+}
+void bullying()
+{
+System.out.println(“School can be challenging for any pupil, but
+many LGBTQ+ young people face an alarming amount of bullying and
+harassment. Homophobic and biphobic bullying is where people are
+discriminated against and treated unfairly by other people
+because they are lesbian, gay, bisexual, trans or questioning or
+perceived to be. People who are not lesbian, gay, bisexual,
+trans or questioning can also experience homophobic and biphobic
+bullying if someone thinks that they are.
+Transphobic bullying is where people are discriminated against
+and treated unfairly by other people because their gender
+identity doesn’t align with the sex they were assigned at birth
+or perhaps because they do not conform to stereotyped gender
+roles or ‘norms’.”);
+a=sc.nextInt
+switch(a)
+{
+case 1:
+{
+System.out.println(“””Like all forms of bullying, homophobic
+bullying can be through name calling, spreading :rumours, online
+bullying, physical, sexual or emotional abuse and can include:
+● Making comments about a person’s gender or sexuality that
+deliberately makes them feel uncomfortable
+● Calling a person names or teasing them
+● Hitting, kicking, punching or physically hurting them
+● Inappropriate sexual comments or gestures
+● Refusing to work or cooperate with someone because of their
+real or perceived sexual orientation
+● Making nasty comments about a person online
+● Mocking or imitating someone’s voice, mannerisms etc.”””);
+break;
+}
+case 2:
+{
+System.out.println(“””
+Homophobic bullying is the most frequent form of bullying
+after name calling:
+● 55% of LGBTQ+ students report having experienced
+homophobic, biphobic or transphobic (HBT) bullying
+● 9 out of 10 secondary school teachers say that pupils in
+their schools have been subject to homophobic bullying. In
+primary schools, 45% of teachers report homophobic bullying
+among pupils
+● Almost one in four LGBTQ+ pupils experience online bullying
+and almost one in ten are bullied by text message.
+● 86% of LGBTQ+ pupils regularly hear phrases such as ‘that’s
+so gay’ or ‘you’re so gay’ in school
+● 53% of LGBTQ+ young people don’t feel there is an adult at
+school who they can talk to about being gay.
+● Worryingly, 9% of LGBTQ+ pupils are subjected to death
+threats.””");
+break;
+}
+case 3:
+{
+System.out.println(“””One of the key things to remember is how
+hurtful homophobic, biphobic or transphobic language can be. It is
+very important to deal with derogatory terms used to describe LGBTQ+
+people, but casual comments said in passing, such as describing a
+negative situation as ‘gay’, can also be very damaging.
+This is incredibly widespread – 90% of young people have, at least
+once, used the word ‘gay’ in a negative context. The presence of
+homophobic language is strongly linked to bullying. In schools where
+students frequently hear homophobic language, 68% of gay pupils are
+bullied, as opposed to 37% in schools where homophobic language is
+rarely or never heard.
+Often children and young people may not realize how offensive this
+kind of talk can be. But throwaway comments can seriously undermine
+gay pupils’ self-esteem, with more than 4.5 gay students reporting
+they feel distressed when they hear the word ‘gay’ used in this way
+If you hear someone use this kind of language, challenge it. Ask them
+why they chose to describe a situation like this and not by using
+another word, such as ‘annoying’ or ‘bad’. This can make them realize
+how inappropriate the word is in this context. If they don’t have a
+problem with gay people, why would they associate the word gay with
+such negative connotations? Of course, you also need to be aware of
+your own language and if you have used this kind of language
+yourself, it is important to realize the damage it can do and stop
+using it now.
+There are other ways that language can be insensitive, including
+words that are suggestive of gender stereotypes, such as telling
+someone to ‘man up’ or ‘grow a pair’ can also be upsetting,
+especially when directed at someone transgender. Again, challenge the
+use of this sort of language – as many people have never thought
+about how it might be hurtful and damaging.”””);
+break;
+}
+case 4:
+{
+● If you’re being bullied in this way you need to tell your
+parents and report it to a teacher.
+● Keep a diary of the comments or behavior. If you are being
+bullied online or via social media, take screenshots and keep
+them as evidence to show your parents, the school or the
+police.
+● If you feel unable to speak to your parents or a teacher,
+perhaps there is another adult you trust that you can speak to
+and they can help.
+● If you feel able to, ignore the bullying so you are not giving
+the bully the reaction they are looking for. Please note, that
+if you feel they could get aggressive, do not put yourself at
+risk as your safety is more important.
+● If this bullying spills over into threats or violence, then it
+should be reported to the police as a hate crime. Many police
+forces have specialist units to deal with these incidents.
+● If your school doesn’t already do it, why not ask them to do
+some work on LGBTQ+ bullying? Sometimes, through education,
+this can help people to understand more and help make them
+realize the impact of their actions and the consequences they
+can have.”””);
+break;
+}
+}
+}
